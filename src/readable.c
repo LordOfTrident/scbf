@@ -6,11 +6,11 @@
 
 #include <stdio.h>
 
-char c[30000], t[30000];
-char *p = t, *l[256];
-int _, s;
-char **a = l;
-char *i;
+c[30000], t[30000];
+*p = t, *l[256];
+_, s;
+**a = l;
+*i;
 
 main() {
 	scanf("%s", c);

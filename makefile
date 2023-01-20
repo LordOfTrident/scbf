@@ -1,19 +1,14 @@
 # Compiler related
 C = gcc
 C_VER = c99
-C_FLAGS = \
-	-O3\
-	-std=${C_VER}\
-	-o ./bin/app\
-	-g\
-	-w
+C_FLAGS = -O3 -std=${C_VER} -o ./bin/app -w
 
-compile: src/readable.c
+compile: src/main.c
 	@mkdir -p ./bin
 	@echo Created ./bin/
 
 	@echo Compiling...
-	@${C} src/readable.c ${C_FLAGS}
+	@${C} src/main.c ${C_FLAGS}
 	@echo Compiled successfully
 
 clean:
