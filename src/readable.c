@@ -12,7 +12,7 @@ int _, s;
 char **a = l;
 char *i;
 
-int main() {
+main() {
 	scanf("%s", c);
 	for (i = c; *i; ++ i)
 		s?

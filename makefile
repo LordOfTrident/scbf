@@ -1,7 +1,6 @@
 # Compiler related
 C = gcc
-C_VER = gnu99 # not using c99 because theres problems
-              # with it on linux (it is stricter than gnu99)
+C_VER = c99
 C_FLAGS = \
 	-O3\
 	-std=${C_VER}\
