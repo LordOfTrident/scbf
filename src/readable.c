@@ -6,11 +6,8 @@
 
 #include <stdio.h>
 
-c[30000], t[30000];
-*p = t, *l[256];
+char c[30000], t[30000], *p = t, *l[256], **a = l, *i;
 _, s;
-**a = l;
-*i;
 
 main() {
 	scanf("%s", c);
